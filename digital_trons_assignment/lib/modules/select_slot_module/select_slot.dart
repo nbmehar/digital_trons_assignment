@@ -10,7 +10,7 @@ class SelectSlotScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.white,
       // appBar: AppBar(
       //   title: Text("Select Time Slot"),
       // ),
@@ -26,7 +26,7 @@ class SelectSlotScreen extends StatelessWidget {
                 style: TextStyle(
                     fontSize: 30,
                     fontWeight: FontWeight.w700,
-                    color: Colors.white),
+                    color: Colors.black),
               ),
               SizedBox(
                 height: 20.h,
